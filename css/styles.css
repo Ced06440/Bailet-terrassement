@@ -7,9 +7,10 @@
 }
 @media screen and (max-width: 400px) {
   .background-img{
-    width: 370px;
-    height: 600px;
+    width: 98vw;
+    height: 500px;
     margin-top: -30%;
+    margin-bottom: -30%;
   }
   .text-header{
     position: absolute;
@@ -4053,7 +4054,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -4067,7 +4068,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -4127,10 +4128,10 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
+  display:inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  vertical-align:middle;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -5668,6 +5669,9 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 575.98px) {
+  h1{
+    font-size: 30px !important;
+  }
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
@@ -11519,8 +11523,8 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #2c3e50;
   color: #fff;
 }
