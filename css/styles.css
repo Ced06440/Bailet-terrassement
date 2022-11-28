@@ -11537,3 +11537,13 @@ html {
   width: 6em;
   height: 6em;
 }
+
+@font-face {
+  font-family: font-devise;
+  src: url("../assets/font/AmaticSC-Regular.ttf");
+}
+
+.devise h2{
+  font-family: font-devise;
+  color: #1abc9c;
+}
